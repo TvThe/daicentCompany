@@ -64,5 +64,8 @@ public class Product {
         return "Product{" +"Name : " + name + "| Seller : " + sellerID + "| Price : " + price+ " | "+ categoryDetail+ " }";
     }
     
-    
+    public String show(){
+        String s = "Product{" +"ID : "+id +"| Name : " + name + "| Seller : " + sellerID + "| Price : " + price+ " | "+ categoryDetail+ " }";
+        return s;
+    }
 }
